@@ -1,0 +1,40 @@
+/* Canvas Styling */
+canvas {
+    border: 1px solid #000000;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Pause Menu Styling */
+#pauseMenu {
+    display: none; /* Initially hidden */
+    position: fixed; /* Ensure it overlays the canvas */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 1000; /* Ensure it is above everything else */
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Pause Menu Buttons */
+#pauseMenu button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background: #555;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#pauseMenu button:hover {
+    background: #777;
+}
